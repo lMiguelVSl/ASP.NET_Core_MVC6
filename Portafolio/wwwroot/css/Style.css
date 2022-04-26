@@ -1,0 +1,61 @@
+﻿
+hr{
+    margin: 0.3%;
+}
+.tit{
+    text-align:center;
+    
+}
+#Foto {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px #000000;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+#presentacion {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#parrafoPresentacion{
+    padding-left:30%;
+}
+
+.seccion-presentacion {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+.seccion-presentacion h3{
+    padding-bottom: 2%;
+    padding-top:2%;
+}
+.seccion-presentacion p{
+    padding: 0 5%;
+    padding-bottom:5%;
+}
+#columnsInfo {
+    margin-top:3%;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px gray;
+    border-color:gray;
+    list-style:none;
+}
+
+#cabecera{
+    font-weight:bold;
+}
+#habilidades ul{
+    list-style:none;
+    padding-left:0;
+}
+#habilidades i{
+    color:#0d6efd;
+    font-size:40px;
+}

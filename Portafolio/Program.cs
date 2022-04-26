@@ -1,3 +1,5 @@
+//en esta clase es donde se genera el ruteo
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,7 +23,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    name: "default", //el controlador por defecto es Home, /la accion y  por defecto sera index.
+    pattern: "{controller=Home}/{action=Index}/{id?}"); //ruteo convencional, patron : ruta de tres partes
 
 app.Run();
